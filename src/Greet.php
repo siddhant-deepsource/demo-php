@@ -46,4 +46,11 @@ class Greet
 
         $greet('John');
     }
+
+    public function methodWithInnerFunction(Fo $foo)
+    {
+        function getFromUserName() {
+            return [];
+        }
+    }
 }
